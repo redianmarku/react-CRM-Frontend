@@ -1,0 +1,93 @@
+.opportunities-container {
+  padding: 20px;
+  max-width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.opportunities-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.opportunities-table th,
+.opportunities-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.opportunities-table th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.opportunities-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.opportunity-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.opportunity-form input,
+.opportunity-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.opportunity-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.opportunity-form button:hover {
+  background-color: #45a049;
+}
+
+.stage-prospecting {
+  background-color: #fff9c4;
+}
+.stage-qualification {
+  background-color: #ffecb3;
+}
+.stage-needs-analysis {
+  background-color: #ffe0b2;
+}
+.stage-value-proposition {
+  background-color: #ffccbc;
+}
+.stage-decision-makers {
+  background-color: #ffcdd2;
+}
+.stage-proposal {
+  background-color: #f8bbd0;
+}
+.stage-negotiation {
+  background-color: #e1bee7;
+}
+.stage-closed-won {
+  background-color: #c8e6c9;
+}
+.stage-closed-lost {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .opportunity-form {
+    max-width: 100%;
+  }
+}

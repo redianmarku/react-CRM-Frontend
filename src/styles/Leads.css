@@ -1,0 +1,86 @@
+.leads-container {
+  padding: 20px;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.leads-table-container {
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.leads-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.leads-table th,
+.leads-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.leads-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.leads-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.status-new {
+  background-color: #e6f3ff;
+}
+
+.status-contacted {
+  background-color: #fff2e6;
+}
+
+.status-qualified {
+  background-color: #e6ffe6;
+}
+
+.status-lost {
+  background-color: #ffe6e6;
+}
+
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.lead-form input,
+.lead-form select,
+.lead-form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.lead-form button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lead-form button:hover {
+  background-color: #4cae4c;
+}
+
+@media (max-width: 768px) {
+  .lead-form {
+    max-width: 100%;
+  }
+}
